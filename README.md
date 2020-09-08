@@ -1,7 +1,7 @@
 # D2RejoinAHK
 Quick script to save/exit and rejoin game in D2 (singleplayer).
 
-Download DiabloRejoin.ahk > Run the file; farm LK runes!
+Download DiabloRejoin.ahk > Run the file AS ADMIN; farm LK runes!
 
 Default hotkey = CTRL+Z (ctrl=^ in the code)
 
@@ -16,3 +16,5 @@ e.g. "Send {Click 406, 259}" "Send {Click x, y}"
   2. You may have to adjust the sleep times to match up with your load times. It's all in milliseconds, if the script stops at the main menu, add another 300ms delay until it works.
 
 e.g. "Sleep, 200" > "Sleep, 500"  
+
+  3. Run the scripts as Administrator, or the blocking of inputs won't function properly.

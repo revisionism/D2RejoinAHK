@@ -17,7 +17,7 @@ KeyWait Control
 BlockInput, On
 Send {Escape}
 Send {Click 406, 259} ; Coordinates that you have to customize (This part hovers over Save & Exit)
-Sleep, 300 ; Wait/Delay between first part. Tinker and adjust to fit your load times.
+Sleep, 550 ; Wait/Delay between first part. Tinker and adjust to fit your load times.
 Send {Click 389, 306} ; Coordinates that you have to customize (This part hovers over Singleplayer)
 Sleep, 200 ; Wait/Delay between first part. Tinker and adjust to fit your load times.
 Send {Enter}
